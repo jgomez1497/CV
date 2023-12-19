@@ -1,0 +1,15 @@
+@use "sass:color";
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$text: #ffffff;
+$footer-bg: #3a3a3a;
+$body-bg: #c0bdca;
+
+$box-bg: color.adjust($body-bg, $lightness: +30%, $alpha: -0.4);
+
+$mqMinWidth: 420px;
+$mqMaxWidth: 599px;
